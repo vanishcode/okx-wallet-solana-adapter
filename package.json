@@ -1,0 +1,17 @@
+{
+  "name": "okx-wallet-solana-adapter",
+  "version": "1.0.0",
+  "description": "solana wallet adapter for okx wallet",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": ["solana", "wallet", "adapter"],
+  "author": "okfe-wjh",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/web3.js": "^1.87.6",
+    "typescript": "^5.2.2"
+  }
+}
